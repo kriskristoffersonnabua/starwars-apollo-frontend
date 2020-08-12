@@ -2,6 +2,7 @@ import React, { Component, useState, useEffect } from 'react'
 
 import movieInfo from '../../movieInfo'
 import Cast from './Cast'
+import Starships from './Starships'
 
 import {withClient} from '../../api/AppoloContext';
 import { gql } from '@apollo/client';
@@ -58,6 +59,12 @@ const Movie = (props) => {
           Characters
         </button>
         <button
+          className={activeTab === 'starships' ? 'active' : null}
+          onClick={() => setActiveTab('starships')}
+        >
+          Starships
+        </button>
+        <button
           className={activeTab === 'reviews' ? 'active' : null}
           onClick={() => setActiveTab('reviews')}
         >
@@ -67,6 +74,7 @@ const Movie = (props) => {
       <React.Suspense fallback={<div>Loadingzz...</div>}>
         <div>
           {activeTab === 'cast' && <Cast match={props.match}/>}
+          {activeTab === 'starships' && <Starships match={props.match}/>}
           {activeTab === 'reviews' && <Reviews />}
         </div>
       </React.Suspense>

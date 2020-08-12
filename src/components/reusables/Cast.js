@@ -5,7 +5,6 @@ import {withClient} from '../../api/AppoloContext';
 import { gql } from '@apollo/client';
 
 const Cast = (props) => {
-  console.log(props)
   const {client} = props.context
   const [characters, setCharacters] = useState([])
 
