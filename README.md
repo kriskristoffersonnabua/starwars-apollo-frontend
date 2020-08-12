@@ -8,7 +8,7 @@ _____________________
 # Run frontend
 In the project directory, you can run:
 ### set .env api url by local graphql server setup above
-### `npm install`
-### `npm run start`
+### `yarn install`
+### `yarn start`
 
 
