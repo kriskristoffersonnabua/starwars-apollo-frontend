@@ -1,14 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Prequisites
+# Prequisites
 ### https://github.com/graphql/swapi-graphql clone this repo for the graphql-sever that leverages the starwars api(https://swapi.dev/)
-### yarn build
-### yarn start (produces api endpoint in local dev, which be used in the .env of this frontend)
-
-
-
-## Run frontend
-
+### `yarn build`
+### `yarn start` (produces api endpoint in local dev, which be used in the .env of this frontend)
+_____________________
+# Run frontend
 In the project directory, you can run:
 ### set .env api url by local graphql server setup above
 ### `npm install`
