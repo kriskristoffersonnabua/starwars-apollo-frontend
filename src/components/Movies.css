@@ -19,6 +19,11 @@
   padding-bottom: 15px;
 }
 
+.movie-thumbnail {
+  width: 100px;
+  height: 100px;
+}
+
 .movie {
   display: flex;
   flex-direction: row;
@@ -47,7 +52,6 @@
 .movie p {
   margin: 0 0 15px 0;
   font-size: 14px;
-  max-width: 350px;
   color: #555;
 }
 
@@ -112,6 +116,12 @@
   margin: 0 0 0 10px;
   font-size: 14px;
   font-weight: 400;
+}
+
+.castImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
 }
 
 .review {

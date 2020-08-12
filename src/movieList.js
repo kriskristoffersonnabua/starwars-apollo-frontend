@@ -3,7 +3,7 @@ export default [
     id: 'fighting-with-my-family',
     title: 'Fighting With My Family',
     description:
-      'A former wrestler and his family make a living performing at small venues around the country while his kids dream of joining World Wrestling Entertainment.',
+      'The Star Wars franchise depicts the adventures of characters "A long time ago in a galaxy far, far away",[6] in which humans and many species of aliens (often humanoid) co-exist with robots, or droids, who may assist them in their daily routines; space travel between planets is common due to lightspeed...',
     thumbnail:
       'https://m.media-amazon.com/images/M/MV5BMjQ3MTk4Nzc1M15BMl5BanBnXkFtZTgwMTEwMDU5NjM@._V1_UY209_CR0,0,140,209_AL_.jpg',
     year: 2019,

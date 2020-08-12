@@ -4,7 +4,6 @@ import movieReviews from '../../movieReviews'
 export default () => {
   return (
     <div className="reviews-container">
-      <h3>Reviews</h3>
       <div className="reviews-list">
         {movieReviews.map(review => (
           <div className="review" key={review.title}>
